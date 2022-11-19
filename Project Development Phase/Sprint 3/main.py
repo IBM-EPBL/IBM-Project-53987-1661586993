@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for
-from database import Database
+from database import Database 
 
 app = Flask(__name__, static_url_path='')
 @app.route('/')
